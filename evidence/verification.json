@@ -9,5 +9,15 @@
   "publication_hygiene_findings": 0,
   "git_history": "fresh standalone repository",
   "local_container_execution": "not run: Docker engine unavailable",
-  "github_ci": "pending first publication"
+  "github_ci": {
+    "status": "success",
+    "verified_commit": "6ff0a59c0740577f6e672571b87d76b1fef7408f",
+    "run_url": "https://github.com/shadowdragon96/esp-predictive-maintenance/actions/runs/41216915669",
+    "linux_tests": "passed",
+    "docker_compose_startup": "passed",
+    "container_http_smoke": "passed"
+  },
+  "public_repository": "https://github.com/shadowdragon96/esp-predictive-maintenance",
+  "github_fresh_clone_without_mlflow": "passed",
+  "mlflow_evaluation_child_wells": 30
 }

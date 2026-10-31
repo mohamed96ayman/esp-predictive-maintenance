@@ -21,4 +21,4 @@ The classifier result is therefore reproduced on this platform for the documente
 
 See [preprocessing comparison](../evidence/preprocessing_parity.json), [classifier reproduction](../evidence/classification_reproduction.json), and [all per-well metrics](../evidence/per_well.csv). No telemetry is included in these reports.
 
-The native API was verified locally. Docker/Compose execution and GitHub CI require a Docker engine and a published GitHub repository respectively; their current state is recorded in [verification status](../evidence/verification.json).
+The native API was verified locally. GitHub Actions also passed all 23 tests, built both Docker targets, started both services with Compose, and sent the example request successfully. A fresh public GitHub clone loaded the model and predicted in a serving-only environment with no MLflow installed. Docker Desktop is absent on the local Windows machine, so container execution was verified on the Linux CI runner. See [verification status](../evidence/verification.json).

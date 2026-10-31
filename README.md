@@ -1,5 +1,7 @@
 # ESP predictive maintenance
 
+[![CI](https://github.com/shadowdragon96/esp-predictive-maintenance/actions/workflows/ci.yaml/badge.svg)](https://github.com/shadowdragon96/esp-predictive-maintenance/actions/workflows/ci.yaml)
+
 This project tests whether ESP sensor data can predict failure risk on **unseen wells**. It packages the SPE Ecuador E-Challenge benchmark as a reproducible classifier pipeline and a local FastAPI service, with MLflow tracking and Docker.
 
 The central finding: fixed-horizon failure detection transfers across wells more successfully than precise remaining-useful-life regression.
