@@ -54,7 +54,7 @@ pyparsing==3.3.3
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.4
 pytz==2026.6
-pywin32==312
+pywin32==312; sys_platform == "win32"
 pyyaml==6.0.3
 requests==2.34.2
 six==1.17.0
