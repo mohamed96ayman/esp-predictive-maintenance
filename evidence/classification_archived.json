@@ -1,0 +1,85 @@
+{
+  "name": "2_very_reg",
+  "definition": {
+    "family": "HistGradientBoostingClassifier",
+    "hgb_hp": {
+      "max_iter": 500,
+      "max_depth": 2,
+      "learning_rate": 0.02,
+      "l2_regularization": 10.0,
+      "min_samples_leaf": 100,
+      "max_leaf_nodes": 7,
+      "random_state": 42,
+      "class_weight": "balanced"
+    },
+    "feature_selection": null,
+    "blend": null
+  },
+  "horizon_h": 168.0,
+  "threshold": 0.5,
+  "n_folds": 30,
+  "n": 13319,
+  "n_positive": 1608,
+  "n_negative": 11711,
+  "metrics": {
+    "auc": 0.9463615021978317,
+    "ap": 0.8385818350608182,
+    "accuracy_at_0_5": 0.9580298821232826,
+    "f1_at_0_5": 0.820545746388443,
+    "precision_at_0_5": 0.8480424684804246,
+    "recall_at_0_5": 0.7947761194029851,
+    "confusion_matrix_at_0_5": [
+      [
+        11482,
+        229
+      ],
+      [
+        330,
+        1278
+      ]
+    ],
+    "oracle_f1": 0.8218372016999019,
+    "oracle_precision": 0.8662991040661613,
+    "oracle_recall": 0.7817164179104478,
+    "oracle_threshold": 0.5685215625776,
+    "confusion_matrix_at_oracle": [
+      [
+        11517,
+        194
+      ],
+      [
+        351,
+        1257
+      ]
+    ]
+  },
+  "fold_statistics": {
+    "auc": {
+      "mean": 0.944727595275873,
+      "std": 0.1461909902526344,
+      "variance": 0.02137180563104585
+    },
+    "ap": {
+      "mean": 0.8435007296754424,
+      "std": 0.2930254165712725,
+      "variance": 0.0858638947567678
+    },
+    "f1_at_0_5": {
+      "mean": 0.7540905047713361,
+      "std": 0.37505465768476404,
+      "variance": 0.1406659962510355
+    },
+    "precision_at_0_5": {
+      "mean": 0.8146293137613354,
+      "std": 0.33807379913134117,
+      "variance": 0.11429389365909841
+    },
+    "recall_at_0_5": {
+      "mean": 0.7696115288220552,
+      "std": 0.39167739162085313,
+      "variance": 0.15341117910691515
+    }
+  },
+  "source": "v40 Sections 4.3.2-4.3.5; BASIC 675 confirmation sweep",
+  "evidence_role": "archived thesis benchmark; independently recomputed from held-out predictions"
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+data/
+runs/
+mlruns/
+mlartifacts/
+*.db
+*.db-shm
+*.db-wal
+.env

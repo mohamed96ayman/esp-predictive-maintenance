@@ -1,0 +1,7 @@
+{
+  "failure_risk": 0.0039964226635055555,
+  "horizon_hours": 168,
+  "threshold": 0.5,
+  "alert": false,
+  "model_version": "basic675-7f7a99fb7bc7"
+}

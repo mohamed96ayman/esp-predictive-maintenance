@@ -1,0 +1,48 @@
+{
+  "role": "held_out_evaluation",
+  "protocol": "LOWO",
+  "n_folds": 30,
+  "preprocessing_id": "basic-6a90ce4d7986fa49",
+  "mlflow_run_id": "e7fad71819024c1c9e1b19d280b025b8",
+  "pooled": {
+    "n": 13319,
+    "n_positive": 1608,
+    "auc": 0.9463615021978317,
+    "ap": 0.8385818350608182,
+    "f1": 0.820545746388443,
+    "precision": 0.8480424684804246,
+    "recall": 0.7947761194029851,
+    "negative_fpr": 0.019554265220732645,
+    "confusion_matrix": [
+      [
+        11482,
+        229
+      ],
+      [
+        330,
+        1278
+      ]
+    ]
+  },
+  "well_f1": {
+    "mean": 0.7540905047713361,
+    "sd_ddof0": 0.37505465768476404,
+    "median": 0.968997152799747,
+    "q25": 0.7659919028340081,
+    "q75": 1.0,
+    "below_0_05": 5
+  },
+  "dependencies": {
+    "numpy": "2.4.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.1",
+    "joblib": "1.5.3"
+  },
+  "reference_comparison": {
+    "rows_labels_wells_exact": true,
+    "probabilities_exact": true,
+    "max_probability_difference": 0.0
+  },
+  "input_route": "raw SPE CSV -> extracted preparation -> archived normalization replay -> shared Rich-15 -> LOWO",
+  "raw_normalization_refit_status": "not independently reproduced; archived fitted statistics are supplied explicitly"
+}

@@ -1,0 +1,13 @@
+{
+  "verification_date": "2026-10-31",
+  "automated_tests_passed": 23,
+  "lint": "passed",
+  "native_http_smoke": "passed",
+  "runtime_without_mlflow": "passed",
+  "raw_reconstruction_with_saved_normalization": "exact",
+  "all_lowo_predictions": "exact",
+  "publication_hygiene_findings": 0,
+  "git_history": "fresh standalone repository",
+  "local_container_execution": "not run: Docker engine unavailable",
+  "github_ci": "pending first publication"
+}

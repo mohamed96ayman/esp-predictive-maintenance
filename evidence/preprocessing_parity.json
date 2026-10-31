@@ -1,0 +1,29 @@
+{
+  "stage": "raw CSV to normalized BASIC windows, using archived normalization statistics",
+  "shape_reference": [
+    30798,
+    504,
+    45
+  ],
+  "shape_rebuilt": [
+    30798,
+    504,
+    45
+  ],
+  "metadata_exact": true,
+  "metadata_column_matches": {
+    "well_id": true,
+    "ts_start": true,
+    "ts_end": true,
+    "missing_frac": true,
+    "window_off": true,
+    "window_has_event": true,
+    "hours_to_event": true
+  },
+  "window_values_exact": true,
+  "max_abs_window_difference": 0.0,
+  "different_elements": 0,
+  "total_elements": 698498640,
+  "normalization_fit_reproduced": false,
+  "normalization_source": "archived statistics replayed explicitly"
+}
